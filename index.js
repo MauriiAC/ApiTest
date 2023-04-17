@@ -2,7 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const fs = require('fs');
 const app = express();
-const PORT = 3000;
+const PORT = 3001;
 
 // Permitir solicitudes desde múltiples orígenes
 app.use(cors({
