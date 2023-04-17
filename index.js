@@ -9,10 +9,8 @@ app.use(cors({
   origin: '*'
 }));
 
-// Configuración de opciones de cors pre-vuelo (preflight)
 app.options('*', cors());
 
-// Middleware para parsear el body de los requests
 app.use(express.json());
 
 app.listen(PORT, () => {
