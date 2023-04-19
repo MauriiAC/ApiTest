@@ -61,3 +61,8 @@ app.delete('/users/:id', (req, res) => {
 });
 
 // ---------------------------------------------------------------
+
+// https://thesimpsonsquoteapi.glitch.me/
+// https://rickandmortyapi.com/
+// https://developers.giphy.com/docs/api/endpoint/
+// https://spoonacular.com/food-api
